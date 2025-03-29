@@ -11,7 +11,7 @@ let questions = [
     {
         id:0, // First question
         text: "What is the best way to relax?",
-        image: "lil_images/story/relax.png",
+        image: "https://contentful.harrypotter.com/usf1vwtuqyxm/3e6KEgfIcdQwZf4ss6wI77/731fe1da0bde50b22301d8e744610f80/the-sorting-hat_1_1800x1248.png",
         choices: {
             "read a book": ["what", "singing"],
             "play video games": ["soldier", "angry"],
