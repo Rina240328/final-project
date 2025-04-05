@@ -1,6 +1,10 @@
 const personalities = {
-    personality1: 0,
-    personality2: 0,
+    Griffindor:0,
+    hufflepuff:0,
+    ravenclaw:0,
+    slytherin:0,
+
+
   };
   
 
@@ -8,22 +12,44 @@ const personalities = {
 
   
   function question1() {
-    questionText.textContent = "Question 1";
-    createButton("Option 1", "personality1", question2);
-    createButton("Option 2", "personality2", question2);
+    questionText.textContent = "What would you do if someone was hurt";
+    createButton("get help", "hufflepuff", question2);
+    createButton("ask what happened", "Griffindor", question2);
+    createButton("try to fix their pain with magic", "ravenclaw", question2);
+    createButton("leave it", "slytherin", question2);
   }
   
   function question2() {
-    questionText.textContent = "Question 2";
-    createButton("Option 1", "personality1", question3);
-    createButton("Option 2", "personality2", question3);
+    questionText.textContent = "what is your favorite spell";
+    createButton("Wingardium Leviosa", "ravenclaw", question3);
+    createButton("Expecto Patronum", "Griffindor", question3);
+    createButton("lumos", "hufflepuff", question3);
+    createButton("Serpensortia", "slytherin", question3);
   }
   
   function question3() {
-    questionText.textContent = "Question 3";
-    createButton("Option 1", "personality1", endQuiz);
-    createButton("Option 2", "personality2", endQuiz);
+    questionText.textContent = "If you see a teacher do something illegal what would you do?";
+    createButton("tell on another teacher", "slytherin", question4);
+    createButton("ask what the teacher was doing", "ravenclaw", question4);
+    createButton("pretend yu didnt see anything", "hufflepuff", question4);
+    createButton("tell your friends about it and try to fix it", "Griffindor", question4);
   }
+  
+  function question4() {
+    questionText.textContent = "if you see one of your housemates go into the forbidden forest what would you do?";
+    createButton("follow", "Griffindor", question5);
+    createButton("see who it is", "ravenclaw", question5);
+    createButton("try to stop him/she", "hufflepuff", question5);
+    createButton("get the teacher", "slytherin", question5);
+  }
+  function question5() {
+    questionText.textContent = "what magical creature is your favorite";
+    createButton("hippogriff", "Griffindor", endQuiz);
+    createButton("phoenix", "hufflepuff", endQuiz);
+    createButton("snake", "slytherin", endQuiz);
+    createButton("Dobby the elf", "ravenclaw", endQuiz);
+  }
+  
   
 
 

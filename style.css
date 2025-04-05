@@ -7,11 +7,22 @@ img {
     width: 100px;
 }
 h1 {
-    color:yellow;
+    color:yellowgreen;
+    font-size:50px;
 }
 h2 {
-    color:yellow;
+    color:yellowgreen;
+    font-size:40px;
 }
 ul {
-    color:yellow;
+    color:white;
+    font-size:30px;
+}
+button {
+    font-size: 40px;
+    padding: 55px 90px;
+}
+h3 {
+    font-size: 50px;
+    color:yellowgreen;
 }
