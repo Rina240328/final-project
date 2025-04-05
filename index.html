@@ -1,32 +1,27 @@
-
 <head>
-    <title>sorting hat quiz</title>
-    <link rel="stylesheet" href="style.css">
+  <title>sorting hat quiz</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="container">
-        <h1> What Hogwarts House are you in?</h1>
-        <h2>This website can help you find your hogwarts house!</h2>
-        <ul>
-        <li>Griffindor</li>
-        <li>Hufflepuff</li>
-        <li>Ravenclaw</li>
-        <li>slytherin</li>
-        </ul>
+  <div class="container">
+      <h1> What Hogwarts House are you in?</h1>
+      <h2>This website can help you find your hogwarts house!</h2>
+      <ul>
+          <li>Griffindor</li>
+          <li>Hufflepuff</li>
+          <li>Ravenclaw</li>
+          <li>slytherin</li>
+      </ul>
 
-        <button onclick = "startGame()">
-        start
-        </button>
-      
-        <div class="game-container" id="game-container">
-          <div class ="question-text" id="question-text"></div>
-          <div class="image-container">
-            <img id="question-image" src="https://contentful.harrypotter.com/usf1vwtuqyxm/3e6KEgfIcdQwZf4ss6wI77/731fe1da0bde50b22301d8e744610f80/the-sorting-hat_1_1800x1248.png" alt="Story Image"/>
+
+      <div class="game-container" id="game-container">
+          <h3 id="question-text">Question Text</h3>
+          <div class="choices" id="choices">
+
           </div>
-          <div class="choices" id="choices"></div>
-        </div>
       </div>
-      <script src="mainQuiz.js"></script>
+  </div>
+  
+  <script src="script.js"></script>
 </body>
-
