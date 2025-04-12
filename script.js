@@ -90,10 +90,10 @@ const personalities = {
   
   function startGame() {
     document.getElementById('game-container').style.display = 'block';
+    document.getElementById("start").remove();
     question1();
   }
   
   const questionText = document.getElementById('question-text');
   const choicesContainer = document.getElementById('choices');
   
-startGame();

@@ -26,3 +26,7 @@ h3 {
     font-size: 50px;
     color:yellowgreen;
 }
+#center {
+    display:flex;
+    justify-content: center;
+}
