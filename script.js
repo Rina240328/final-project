@@ -31,7 +31,7 @@ const personalities = {
     questionText.textContent = "If you see a teacher do something illegal what would you do?";
     createButton("tell on another teacher", "slytherin", question4);
     createButton("ask what the teacher was doing", "ravenclaw", question4);
-    createButton("pretend yu didnt see anything", "hufflepuff", question4);
+    createButton("pretend you didnt see anything", "hufflepuff", question4);
     createButton("tell your friends about it and try to fix it", "Griffindor", question4);
   }
   
